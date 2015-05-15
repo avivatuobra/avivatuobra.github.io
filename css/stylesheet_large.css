@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@media screen and (min-width: 769px) {
+    body {
+        color: black;
+        text-align: center;
+        background-color: #FFF6D9;
+        background-image: url(../jpg/background_large.png)
+    }
+    .fixed-nav-bar {
+        display: none;
+    }
+    .regular {
+        display: table;
+    }
+    
+    .regular {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+    
+    ul {
+    background-color: #541229;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+       
+a:visited {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+    
+    /* unvisited link */
+
+    a:link {
+        color: white;
+    }
+    a:hover {
+        color: #E8D9AC;
+    }
+    #cp_widget_9aa25d5f-b26d-490d-b3a2-4b40ce8f37f3 {
+        max-width: 640px;
+        text-align: center;
+    }
+    
+    form {
+        width: 288px;
+        display: inline-block;
+        text-align: right;
+    }
+    
+    label {
+    }
+    
+    input, textarea {
+        display: inline-block;
+        width: 150px;
+        margin-bottom: 20px;
+        vertical-align: top;
+    }
+    
+/*
+    footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 98%;
+    }
+*/
+    
+    #contactFooter, #indexFooter {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 98%;
+    }
+    
+    footer p {
+        text-align: center;
+    }

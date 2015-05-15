@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@media screen and (max-width: 690px) {
+    h1 {
+        color: black;
+        font-size: 2em;
+        font-family: serif;
+        text-align: center;
+    }
+    body {
+        color: black;
+        text-align: center;
+        background-color: #FFF6D9;
+        background-image: url(../jpg/background_small.png)
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+    .fixed-nav-bar {
+        display: block;
+    }
+    .regular {
+        display: none;
+    }
+    /* Please figure out how to place the text in the middle of the boxes */
+
+    .fixed-nav-bar a {
+        padding-top: 30px;
+    }
+    .fixed-nav-bar a:link,
+    .fixed-nav-bar a:visited {
+        display: block;
+        width: 100%;
+        height: 70px;
+        font-weight: bold;
+        font-size: 1.3em;
+        color: #FFFFFF;
+        background-color: #541229;
+        text-align: center;
+        padding: none;
+        text-decoration: none;
+    }
+    a:hover,
+    a:active {
+        background-color: #E8D9AC;
+        color: black;
+    }
+
+    #cp_widget_9aa25d5f-b26d-490d-b3a2-4b40ce8f37f3 {
+        max-width: 640px;
+        text-align: center;
+    }
+    
+    form {
+        width: 288px;
+        display: inline-block;
+        text-align: right;
+    }
+    
+    label {
+    }
+    
+    input, textarea {
+        display: inline-block;
+        width: 150px;
+        margin-bottom: 20px;
+        vertical-align: top;
+    }
+    
+    #contactLinks {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    #contactLinks a {
+        display: inline-block;
+    }
+    
+    footer {
+        margin-top: 50px;
+        text-align: center;
+        width: 98%;
+    }
+    
+    #indexFooter {
+        bottom: -255px;
+    }
+    
+    #contactFooter {
+        bottom: -40px;
+    }
+    
+        footer p {
+        text-align: center;
+    }
+}
